@@ -10,29 +10,36 @@ body{
     background-color: #3E2B74;
 }
 
-.home-page-title{
+.found-page-title{
   text-align: center;
   color: white;
   font-family: SF_Pro_Display;
   font-size: xx-large;
   height: 55px;
 }
-.home-page-version{
+.found-page-version{
   
   text-align: center;
   color: white;
   font-family: SF_Pro_Display;
   font-size: xx-large;
+  height: 55px;
 }
+.found-page-instance{
+  text-align: center;
+  color: white;
+  font-family: SF_Pro_Display;
+  font-size: xx-large;
 
-.home-page-buttons-container{
+}
+.found-page-buttons-container{
   height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.home-page-buttons{
+.found-page-buttons{
   width: 500px;
   display: flex;
   justify-content: space-between;
@@ -55,7 +62,7 @@ body{
   font-family: SF_Pro_Display;
   font-weight: bold;
 }
-.btn-find_instance{
+.btn-lets_go{
   background-color: #6949c5;
   width: 124px;
   height: 57px;
@@ -65,12 +72,12 @@ body{
   align-items: center;
   cursor: pointer;
 }
-.btn-find_instance-text{
+.btn-lets_go-text{
   color: #FFFFFF;
   font-family: SF_Pro_Display;
   font-weight: bold;
 }
-.home-page-credits{
+.found-page-credits{
   color: #FFFFFF;
   font-family: SF_Pro_Display;
   font-weight: bold;
