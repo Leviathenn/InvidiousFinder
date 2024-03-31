@@ -9,7 +9,11 @@ window.addEventListener("load",()=>{
     const URLSearch = window.location.search;
     const Args = new URLSearchParams(URLSearch);
     const o = Args.get("o");
-    
+    if(o){
+
+    }else{
+        window.location.assign("https://leviathenn.github.io/InvidiousFinder/error/?g=2")
+    }
     new Promise(()=>{
         if(atob(o)){
             let Buttons = {
@@ -44,11 +48,10 @@ window.addEventListener("load",()=>{
            });
 
         });
-        window.querySelector(".found-page-instance").querySelector("span").textContent = atob(o);
+        document.querySelector(".found-page-instance").querySelector("span").textContent = atob(o);
         }else{
             throw "exeptions";
         }
         
-    }).catch(()=>{//window.location.assign("https://leviathenn.github.io/InvidiousFinder/error/?g=2");})
-    
-})
+    }).catch(()=>{window.location.assign("https://leviathenn.github.io/InvidiousFinder/error/?g=2")})
+});
