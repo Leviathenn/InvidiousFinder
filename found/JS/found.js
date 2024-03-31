@@ -48,6 +48,6 @@ window.addEventListener("load",()=>{
             throw "exeptions";
         }
         
-    }).catch(()=>{window.location.assign("https://leviathenn.github.io/InvidiousFinder/error/?g=2");})
+    }).catch(()=>{//window.location.assign("https://leviathenn.github.io/InvidiousFinder/error/?g=2");})
     
 })
