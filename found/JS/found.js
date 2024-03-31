@@ -9,13 +9,14 @@ window.addEventListener("load",()=>{
     const URLSearch = window.location.search;
     const Args = new URLSearchParams(URLSearch);
     const o = Args.get("o");
+    
     new Promise(()=>{
         if(atob(o)){
             let Buttons = {
                 "learnmore": {
                     element: document.querySelector(".btn-learn_more"),
                     click: ()=>{
-                      window.open("/found/learn/more","_blank");
+                      window.open("https://leviathenn.github.io/InvidiousFinder/found/learn/more","_blank");
                     }
               },
               "letsgo": {
@@ -42,10 +43,11 @@ window.addEventListener("load",()=>{
                 });
            });
         });
+        window.querySelector(".found-page-instance").querySelector("span").textContent = atob(o);
         }else{
             throw "exeptions";
         }
         
-    }).catch(()=>{window.location.assign("/error/?g=2");})
+    }).catch(()=>{window.location.assign("https://leviathenn.github.io/InvidiousFinder/error/?g=2");})
     
 })
