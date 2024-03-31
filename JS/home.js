@@ -54,7 +54,7 @@ window.addEventListener("load",()=>{
                                         }
                                         if(index == res.length - 1){
                                             resolve();
-                                           } else{
+                                           } else{ 
                                             
                                            }
                                            index++;
