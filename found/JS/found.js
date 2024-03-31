@@ -15,7 +15,7 @@ window.addEventListener("load",()=>{
                 "learnmore": {
                     element: document.querySelector(".btn-learn_more"),
                     click: ()=>{
-                      window.open("/found/learn-more","_blank");
+                      window.open("/found/learn/more","_blank");
                     }
               },
               "letsgo": {

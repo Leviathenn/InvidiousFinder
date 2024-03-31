@@ -12,7 +12,7 @@ window.addEventListener("load",()=>{
         "learnmore": {
           element: document.querySelector(".btn-learn_more"),
           click: ()=>{
-            window.open("/learn-more","_blank");
+            window.open("/learn/more","_blank");
           }
         },
         "findinstance": {

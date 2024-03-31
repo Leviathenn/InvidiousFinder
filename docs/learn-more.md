@@ -1,0 +1,3 @@
+# Made By Leviathenn, or for my School Friends. Levi. A
+
+I made the design, functunality, docs, and web-page in less than 4 hours. Not Much else to say...
