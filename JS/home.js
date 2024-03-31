@@ -39,7 +39,7 @@ window.addEventListener("load",()=>{
                                         if(response.status == 200){
                                             console.log(`Got one: ${instanceurl}`);
                                             foundone = true;
-                                           // window.location.assign(`/found/index.html?o=${btoa(instanceurl)}`)
+                                            window.location.assign(`/found/index.html?o=${btoa(instanceurl)}`)
                                            if(index == res.length - 1){
                                             resolve();
                                            } else{
