@@ -12,7 +12,7 @@ window.addEventListener("load",()=>{
         "learnmore": {
           element: document.querySelector(".btn-learn_more"),
           click: ()=>{
-            window.open("/learn/more","_blank");
+            window.open("https://leviathenn.github.io/InvidiousFinder/learn/more","_blank");
           }
         },
         "findinstance": {
@@ -39,7 +39,7 @@ window.addEventListener("load",()=>{
                                         if(response.status == 200){
                                             console.log(`Got one: ${instanceurl}`);
                                             foundone = true;
-                                            window.location.assign(`/found/index.html?o=${btoa(instanceurl)}`)
+                                            window.location.assign(`https://leviathenn.github.io/InvidiousFinder/found/index.html?o=${btoa(instanceurl)}`)
                                            if(index == res.length - 1){
                                             resolve();
                                            } else{
@@ -64,7 +64,7 @@ window.addEventListener("load",()=>{
                                
                             }).then(()=>{
                                 if(foundone){
-                                    window.location.assign('/error/?g=5');
+                                    window.location.assign('https://leviathenn.github.io/InvidiousFinder/error/?g=5');
                                 }else{
                                     console.log("aww snap...");
                                 }
