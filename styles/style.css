@@ -1,0 +1,18 @@
+@font-face{
+  font-family: SF_Pro_Display;
+  src: url("fonts/display.ttf")
+}
+@font-face{
+  font-family: SF_Pro_Text;
+  src: url("fonts/text.ttf")
+}
+body{
+    background-color: #3E2B74;
+}
+
+.home-page-title{
+  text-align: center;
+  color: white;
+  font-family: SF_Pro_Display;
+  font-size: xx-large;
+}
